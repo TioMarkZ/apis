@@ -16,6 +16,7 @@ By Tio Mark | © | Todos os direitos reservados
 7. - [😉 Wink/Piscar](https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json)
      
 **❓ Como devo usar?**
+- Se quiser utilizar uma api direta que gera automaticamente um link aleatório basta [clicar aqui](https://tiomarkz.github.io/apis/)
 ```
 // você pode dar fetch da forma que desejar e pegar um link de forma random do "urls" exemplo:
 fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
