@@ -24,6 +24,35 @@ fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
     })
     .catch(error => console.error('Erro:', error));
 ```
+
+Caso queira testar se está tudo ok com os retornos, basta **modificar** este código ✅
+```
+const urlList = [
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat01.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat02.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat03.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat04.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat05.gif"
+];
+
+async function testUrls() {
+  for (const url of urlList) {
+    try {
+      const response = await fetch(url);
+      if (response.status === 404) {
+        console.log(`A URL ${url} retornou 404: Not Found`);
+      } else {
+        console.log(`A URL ${url} está OK`);
+      }
+    } catch (error) {
+      console.error(`Erro ao acessar a URL ${url}: ${error.message}`);
+    }
+  }
+}
+
+testUrls();   
+```
+
 </details>
 <details>
   <summary><code><strong>[🚩 Api de países]</strong></code></summary>
@@ -36,4 +65,3 @@ fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
 
 # ✨ Intuito do código
 - Este código tem várias apis úteis para bots que não precisa de terceiros para seu uso, logo faz o código ser totalmente seu.
-- 
