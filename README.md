@@ -1,7 +1,9 @@
-#  Exemplos de uso das apis 🔬
+#  Api de anime e bandeiras 🔬
 By Tio Mark | © | Todos os direitos reservados 
 
 [📱 Contato e links úteis.](https://linktr.ee/irisbot)
+
+# Exemplo de uso das API's 🔎
 <details>
   <summary><code><strong>[🔗 Respostas das apis]</strong></code></summary>
 
