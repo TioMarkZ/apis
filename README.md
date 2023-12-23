@@ -8,11 +8,13 @@ By Tio Mark | © | Todos os direitos reservados
   <summary><code><strong>[🔗 Respostas das apis]</strong></code></summary>
 
 1. - [😘 Kiss/beijo](https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json)
-2. - [💢 Pat/tapinha](https://github.com/TioMarkZ/apis/raw/main/pat/urls.json)
-3. - [💥 Slap/tapão](https://raw.githubusercontent.com/TioMarkZ/apis/main/slap/urls.json)
+2. - [💢 Pat/carinho](https://github.com/TioMarkZ/apis/raw/main/pat/urls.json)
+3. - [💥 Slap/tapa](https://raw.githubusercontent.com/TioMarkZ/apis/main/slap/urls.json)
 4. - [😝 Lick/linguada](https://raw.githubusercontent.com/TioMarkZ/apis/main/lick/urls.json)
-
-
+5. - [🔫 Kill/Matar](https://raw.githubusercontent.com/TioMarkZ/apis/main/kill/urls.json)
+6. - [🫂 Hug/Abraço](https://raw.githubusercontent.com/TioMarkZ/apis/main/hug/urls.json)
+7. - [😉 Wink/Piscar](https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json)
+     
 **❓ Como devo usar?**
 ```
 // você pode dar fetch da forma que desejar e pegar um link de forma random do "urls" exemplo:
