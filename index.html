@@ -57,7 +57,7 @@
         margin-top: 20px;
     }
     pre {
-font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+font-size: 18px; 
 white-space: pre-wrap; /* Quebra de linha automática */
 word-wrap: break-word; /* Quebra de linha para palavras longas */
 }
@@ -74,88 +74,8 @@ word-wrap: break-word; /* Quebra de linha para palavras longas */
         <a href="https://api-lizzy.mawyff.repl.co/hug.php" class="button">Abraçar</a>
         <a href="https://api-lizzy.mawyff.repl.co/kill.php" class="button">Matar</a>
         <a href="https://api-lizzy.mawyff.repl.co/wink.php" class="button">Piscar</a>
+        <a href="https://api-lizzy.mawyff.repl.co/bonk.php" class="button">Bater</a>
     </div>
-
-
-    <!-- Categoria recolhível -->
-    <details class="api-category">
-        <summary><code><strong>[🔗 Respostas das APIs]</strong></code></summary>
-
-        <ol>
-            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json">😘 Kiss/beijo</a></li>
-            <li><a href="https://github.com/TioMarkZ/apis/raw/main/pat/urls.json">💢 Pat/carinho</a></li>
-            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/slap/urls.json">💥 Slap/tapa</a></li>
-            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/lick/urls.json">😝 Lick/linguada</a></li>
-            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/kill/urls.json">🔫 Kill/Matar</a></li>
-            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/hug/urls.json">🫂 Hug/Abraço</a></li>
-            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json">😉 Wink/Piscar</a></li>
-        </ol>
-
-        <p><strong>❓ Como devo usar?</strong></p>
-        <p>Se quiser utilizar uma API direta que gera automaticamente um link aleatório, basta <a href="https://tiomarkz.github.io/apis/">clicar aqui</a>.</p>
-
-        <pre>
-
-        <pre id="code1">
-// você pode dar fetch da forma que desejar e pegar um link de forma random do "urls" exemplo:
-fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
-    .then(response => response.json())
-    .then(data => {
-        let urls = data.urls;
-        let randomIndex = Math.floor(Math.random() * urls.length);
-        let randomUrl = urls[randomIndex];
-        console.log(randomUrl);
-    })
-    .catch(error => console.error('Erro:', error));
-        </pre>
-        <button onclick="copyToClipboard('#code1')">Copiar</button>
-
-        <pre id="code2">
-            
-        <p>Caso queira testar se está tudo ok com os retornos, basta <strong>modificar</strong> este código ✅</p>
-
-const urlList = [
-  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat01.gif",
-  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat02.gif",
-  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat03.gif",
-  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat04.gif",
-  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat05.gif"
-];
-
-async function testUrls() {
-  for (const url of urlList) {
-    try {
-      const response = await fetch(url);
-      if (response.status === 404) {
-        console.log(`A URL ${url} retornou 404: Not Found`);
-      } else {
-        console.log(`A URL ${url} está OK`);
-      }
-    } catch (error) {
-      console.error(`Erro ao acessar a URL ${url}: ${error.message}`);
-    }
-  }
-}
-
-testUrls();
-        </pre>
-        <button onclick="copyToClipboard('#code2')">Copiar</button>
-
-    </details>
-
-    <!-- Outras categorias recolhíveis podem ser adicionadas aqui -->
-
-    <script>
-        function copyToClipboard(elementId) {
-            var copyText = document.querySelector(elementId);
-            var textArea = document.createElement("textarea");
-            textArea.value = copyText.textContent;
-            document.body.appendChild(textArea);
-            textArea.select();
-            document.execCommand("Copy");
-            textArea.remove();
-        }
-    </script>
 
 </body>
 </html>
