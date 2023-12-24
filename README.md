@@ -14,6 +14,7 @@ By Tio Mark | © | Todos os direitos reservados
 - [🔫 Kill/Matar](https://raw.githubusercontent.com/TioMarkZ/apis/main/kill/urls.json)
 - [🫂 Hug/Abraço](https://raw.githubusercontent.com/TioMarkZ/apis/main/hug/urls.json)
 - [😉 Wink/Piscar](https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json)
+- [😉 Bonk/Bater](https://raw.githubusercontent.com/TioMarkZ/apis/main/bonk/urls.json)
      
 **❓ Como devo usar?**
 - Se deseja utilizar uma api direta que gera automaticamente um link aleatório basta [clicar aqui](https://tiomarkz.github.io/apis/)
