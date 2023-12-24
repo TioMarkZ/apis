@@ -1,55 +1,67 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escolha uma rota</title>
-    <style>
-        body {
-            background-color: #000000;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-        }
+    <style> 
+    body {
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+    }
 
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
 
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-        .button {
-            background-color: #0000FF;
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            margin: 10px 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px;
-        }
+    .button {
+        background-color: #0000FF;
+        border: none;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+    }
 
-        .button:hover {
-            background-color: #00008B;
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
-        }
+    .button:hover {
+        background-color: #00008B;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    }
+
+    /* Estilo adicional para a categoria recolhível */
+    .api-category {
+        margin-top: 20px;
+    }
+    pre {
+font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+white-space: pre-wrap; /* Quebra de linha automática */
+word-wrap: break-word; /* Quebra de linha para palavras longas */
+}
+
     </style>
 </head>
 <body>
@@ -63,5 +75,87 @@
         <a href="https://api-lizzy.mawyff.repl.co/kill.php" class="button">Matar</a>
         <a href="https://api-lizzy.mawyff.repl.co/wink.php" class="button">Piscar</a>
     </div>
+
+
+    <!-- Categoria recolhível -->
+    <details class="api-category">
+        <summary><code><strong>[🔗 Respostas das APIs]</strong></code></summary>
+
+        <ol>
+            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json">😘 Kiss/beijo</a></li>
+            <li><a href="https://github.com/TioMarkZ/apis/raw/main/pat/urls.json">💢 Pat/carinho</a></li>
+            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/slap/urls.json">💥 Slap/tapa</a></li>
+            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/lick/urls.json">😝 Lick/linguada</a></li>
+            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/kill/urls.json">🔫 Kill/Matar</a></li>
+            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/hug/urls.json">🫂 Hug/Abraço</a></li>
+            <li><a href="https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json">😉 Wink/Piscar</a></li>
+        </ol>
+
+        <p><strong>❓ Como devo usar?</strong></p>
+        <p>Se quiser utilizar uma API direta que gera automaticamente um link aleatório, basta <a href="https://tiomarkz.github.io/apis/">clicar aqui</a>.</p>
+
+        <pre>
+
+        <pre id="code1">
+// você pode dar fetch da forma que desejar e pegar um link de forma random do "urls" exemplo:
+fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
+    .then(response => response.json())
+    .then(data => {
+        let urls = data.urls;
+        let randomIndex = Math.floor(Math.random() * urls.length);
+        let randomUrl = urls[randomIndex];
+        console.log(randomUrl);
+    })
+    .catch(error => console.error('Erro:', error));
+        </pre>
+        <button onclick="copyToClipboard('#code1')">Copiar</button>
+
+        <pre id="code2">
+            
+        <p>Caso queira testar se está tudo ok com os retornos, basta <strong>modificar</strong> este código ✅</p>
+
+const urlList = [
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat01.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat02.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat03.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat04.gif",
+  "https://raw.githubusercontent.com/TioMarkZ/apis/main/pat/pat05.gif"
+];
+
+async function testUrls() {
+  for (const url of urlList) {
+    try {
+      const response = await fetch(url);
+      if (response.status === 404) {
+        console.log(`A URL ${url} retornou 404: Not Found`);
+      } else {
+        console.log(`A URL ${url} está OK`);
+      }
+    } catch (error) {
+      console.error(`Erro ao acessar a URL ${url}: ${error.message}`);
+    }
+  }
+}
+
+testUrls();
+        </pre>
+        <button onclick="copyToClipboard('#code2')">Copiar</button>
+
+    </details>
+
+    <!-- Outras categorias recolhíveis podem ser adicionadas aqui -->
+
+    <script>
+        function copyToClipboard(elementId) {
+            var copyText = document.querySelector(elementId);
+            var textArea = document.createElement("textarea");
+            textArea.value = copyText.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("Copy");
+            textArea.remove();
+        }
+    </script>
+
 </body>
 </html>
