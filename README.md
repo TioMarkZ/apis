@@ -62,7 +62,8 @@ testUrls();
 <details>
   <summary><code><strong>[🚩 Api de países]</strong></code></summary>
   
-- Esta api serve para quem deseja criar comando relacioado a conhescimento de países basta dar fetch da mesma forma que as apis anteriores neste [link](https://raw.githubusercontent.com/TioMarkZ/apis/main/paises.json)
+- Esta api serve para quem deseja criar comando relacionado a conhescimento de países basta dar fetch da mesma forma que as apis anteriores neste [link](https://raw.githubusercontent.com/TioMarkZ/apis/main/paises.json)
+- Uma dica pessoal de uso para este comando é criar um quiz em que exibe a bandeira e o usuário deve digitar qual país é, bom uso.
 </details>
 
 # 🛠 Sobre os arquivos
