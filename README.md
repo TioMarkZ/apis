@@ -66,7 +66,7 @@ testUrls();
 </details>
 
 # 🛠 Sobre os arquivos
-- O arquivo `baixar.js` e `exemplo_image_anime.js` foram as apis utilizadas para baixar image/gif em massa, o arquivo `imagens_backup.zip` é um backuo completo de todas as bandeiras em um único zip.
+- O arquivo `baixar_bandeiras.js` e `exemplo_gif_anime.js` foram as apis utilizadas para baixar image/gif em massa, o arquivo `imagens_backup.zip` é um backup completo de todas as bandeiras em um único zip.
 
 # ✨ Intuito do código
 - Este código tem várias apis úteis para bots que não precisa de terceiros para seu uso, logo faz o código ser totalmente seu.
