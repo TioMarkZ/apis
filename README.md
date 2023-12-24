@@ -16,7 +16,7 @@ By Tio Mark | © | Todos os direitos reservados
 - [😉 Wink/Piscar](https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json)
      
 **❓ Como devo usar?**
-- Se quiser utilizar uma api direta que gera automaticamente um link aleatório basta [clicar aqui](https://tiomarkz.github.io/apis/)
+- Se deseja utilizar uma api direta que gera automaticamente um link aleatório basta [clicar aqui](https://tiomarkz.github.io/apis/)
 ```
 // você pode dar fetch da forma que desejar e pegar um link de forma random do "urls" exemplo:
 fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
@@ -62,8 +62,8 @@ testUrls();
 <details>
   <summary><code><strong>[🚩 Api de países]</strong></code></summary>
   
-- Esta api serve para quem deseja criar comando relacionado a conhescimento de países basta dar fetch da mesma forma que as apis anteriores neste [link](https://raw.githubusercontent.com/TioMarkZ/apis/main/paises.json)
-- Uma dica pessoal de uso para este comando é criar um quiz em que exibe a bandeira e o usuário deve digitar qual país é, bom uso.
+- Esta api serve para quem deseja criar comando relacionado a conhescimento de países. Basta dar fetch da mesma forma que as apis anteriores neste [link](https://raw.githubusercontent.com/TioMarkZ/apis/main/paises.json)
+- Uma dica pessoal de uso para este comando é criar um quiz em que exibe a bandeira e o usuário deva digitar qual país é, bom uso.
 </details>
 
 # 🛠 Sobre os arquivos
