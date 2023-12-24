@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 import axios from 'axios';
 import path from 'path';
 
-let image_num = 500 // número de imagens que deseja
+let image_num = 50 // número de gifs que deseja
 
 async function fetchDataAndSaveUrls(numFetches) {
     const urls = [];
