@@ -32,7 +32,35 @@ fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/kiss/urls.json')
     })
     .catch(error => console.error('Erro:', error));
 ```
+Para um segunfo exemplo de como ficaria mais ou menos em um bot de whatsapp:
+![image](https://github.com/TioMarkZ/apis/assets/78027781/428a9fac-7e23-4a0c-8f50-bae389a2a9ca)
 
+```
+// codigo referente ao segundo exemplo que pode ser usada em bots de whatsapp:
+let command = "kiss";
+  fetch(`https://raw.githubusercontent.com/TioMarkZ/apis/main/${command}/urls.json`)
+  .then(response => response.json())
+  .then(async data => {
+      let urls = data.urls;
+      let randomIndex = Math.floor(Math.random() * urls.length);
+      let randomUrl = urls[randomIndex];
+      // Fetch frases
+      fetch('https://raw.githubusercontent.com/TioMarkZ/apis/main/frasesUrls.json')
+      .then(response => response.json())
+      .then(async data => {
+          let frases = data[command];
+          let randomFraseIndex = Math.floor(Math.random() * frases.length);
+          let marcas1 = `@${m.sender.split('@')[0]}`
+          let marcas2 = `@${user2.split('@')[0]}`
+          let frase = frases[randomFraseIndex].replace('#user1', marcas1).replace('#user2', marcas2);
+  
+          await conn.sendMessage(m.chat, {text: frase, mentions: [m.sender, user2]});
+          m.reply(await createSticker(false, randomUrl, '', `${name2} ${command} ${name}`, 20))
+      })
+      .catch(error => console.error('Erro:', error));
+  })
+  .catch(error => console.error('Erro:', error));
+```
 Caso queira testar se está tudo ok com os retornos, basta **modificar** este código ✅
 ```
 const urlList = [
