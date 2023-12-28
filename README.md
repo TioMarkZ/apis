@@ -15,8 +15,10 @@ By Tio Mark | © | Todos os direitos reservados
 - [🫂 Hug/Abraço](https://raw.githubusercontent.com/TioMarkZ/apis/main/hug/urls.json)
 - [😉 Wink/Piscar](https://raw.githubusercontent.com/TioMarkZ/apis/main/wink/urls.json)
 - [🧹 Bonk/Bater](https://raw.githubusercontent.com/TioMarkZ/apis/main/bonk/urls.json)
+- [😼 Bully/Bullying](https://raw.githubusercontent.com/TioMarkZ/apis/main/bully/urls.json)
      
 **❓ Como devo usar?**
+- Caso queira gerar uma frase para utilizar veja o json de frases [clicando aqui](https://raw.githubusercontent.com/TioMarkZ/apis/main/frasesUrls.json)
 - Se deseja utilizar uma api direta que gera automaticamente um link aleatório basta [clicar aqui](https://tiomarkz.github.io/apis/)
 ```
 // você pode dar fetch da forma que desejar e pegar um link de forma random do "urls" exemplo:
