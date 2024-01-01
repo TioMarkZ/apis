@@ -96,7 +96,6 @@ testUrls();
 - Esta api serve para quem deseja criar comando relacionado a conhescimento de países. Basta dar fetch da mesma forma que as apis anteriores neste [link](https://raw.githubusercontent.com/TioMarkZ/apis/main/paises.json)
 - Uma dica pessoal de uso para este comando é criar um quiz em que exibe a bandeira e o usuário deva digitar qual país é, bom uso.
 </details>
-
 <details>
   <summary><code><strong>[😺 Api de animais]</strong></code></summary>
   
@@ -105,6 +104,7 @@ testUrls();
 - Caso tenha percebido que faltou animais importantes ou até mesmo espécies de animais, crie uma issue mostrando uma lista de animais como sugestão [clicando aqui](https://github.com/TioMarkZ/apis/issues/new/choose).
 - Uma dica pessoal de uso para este comando é criar um quiz em que exibe a imagem do animal e o usuário deve digitar qual animal é, bom uso.
 </details>
+
 # 🛠 Sobre os arquivos
 - O arquivo `baixar_bandeiras.js` e `exemplo_gif_anime.js` foram as apis utilizadas para baixar image/gif em massa, o arquivo `imagens_backup.zip` é um backup completo de todas as bandeiras em um único zip.
 
