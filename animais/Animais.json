@@ -45,7 +45,8 @@
     {"animal": "cobra do milho", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/serpente_do_milho.jpg"},
     {"animal": "Tigre Siberiano", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/tigre_siberiano.jpg"},
     {"animal": "Tigre Branco", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/tigre_branco.jpg"},
-    {"animal": "Porco-espinho", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/porco_espinho.jpg"},
+    {"animal": "Porco espinho", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/porquinho_da_india.jpg"},
+    {"animal": "Porquinho da Índia", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/porco_espinho.jpg"},
     {"animal": "Porco", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/Porco.jpg"},
     {"animal": "porco-formigueiro", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/porco-formigueiro.jpg"}, 
     {"animal": "Orangotango", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/orangotango.jpg"},
@@ -156,6 +157,9 @@
     {"animal": "Escorpião", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/escorpiao.jpg"},
     {"animal": "Escorpião imperador", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/escorpiao_imperador.jpg"},
     {"animal": "Gato-do-mato", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/gato_do_mato.jpg"},
+    {"animal": "Floppa", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/floppa.jpg"},
+    {"animal": "Alpaca", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/alpaca.jpg"},
+    {"animal": "Guaxinim", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/guaxinim.jpg"},
     {"animal": "Golfinho nariz de garrafa", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/golfinho_nariz_de_garrafa.jpg"},
     {"animal": "Urso polar", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/urso_polar.jpg"},
     {"animal": "Tucano de bico arco íris", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/tucano_de_bico_arco_iris.jpg"},
@@ -207,6 +211,8 @@
     {"animal": "Pardal", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/pardal.jpg"},
     {"animal": "Tucano", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/tucano.jpg"},
     {"animal": "Libélula", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/libelula_comum.jpg"},
+    {"animal": "Husky Siberiano", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/husky_siberiano.jpg"},
+    {"animal": "Ganso", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/ganso.jpg"},
     {"animal": "Lebre", "img_url": "https://raw.githubusercontent.com/TioMarkZ/apis/main/animais/lebre.jpg"}
     ]
 }
